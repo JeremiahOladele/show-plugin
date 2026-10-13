@@ -1,0 +1,8 @@
+name: show-plugin
+version: '${version}'
+
+main: net.storryteller.showPlugin.ShowPlugin
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ StoryTeller ]
