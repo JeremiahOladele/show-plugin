@@ -6,3 +6,8 @@ api-version: '26.2'
 load: POSTWORLD
 
 authors: [ StoryTeller ]
+
+commands:
+  showItem:
+    usage: /show <item> [amount]
+
