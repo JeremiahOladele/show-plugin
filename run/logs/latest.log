@@ -1,62 +1,66 @@
-[18:14:27] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4+7-LTS; Eclipse Adoptium Temurin-25.0.4+7) on Windows 11 10.0 (amd64)
-[18:14:27] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) for Minecraft 26.2
-[18:14:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:14:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[18:14:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[19:44:13] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4+7-LTS; Eclipse Adoptium Temurin-25.0.4+7) on Windows 11 10.0 (amd64)
+[19:44:13] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) for Minecraft 26.2
+[19:44:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:44:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[19:44:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - show-plugin (1.0-SNAPSHOT)
-[18:14:34] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[18:14:34] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
-[18:14:34] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
-[18:14:34] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[18:14:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:14:34] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 820.0ms
-[18:14:37] [ServerMain/INFO]: Loaded 1585 recipes
-[18:14:37] [ServerMain/INFO]: Loaded 1688 advancements
-[18:14:38] [Server thread/INFO]: Starting minecraft server version 26.2
-[18:14:38] [Server thread/INFO]: Loading properties
-[18:14:38] [Server thread/INFO]: This server is running Paper version 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) (Implementing API version 26.2.build.134-stable)
-[18:14:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:14:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:14:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:14:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[18:14:39] [Server thread/INFO]: Default game type: SURVIVAL
-[18:14:39] [Server thread/INFO]: Generating keypair
-[18:14:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:14:39] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:14:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:14:39] [Server thread/INFO]: [show-plugin] Loading server plugin show-plugin v1.0-SNAPSHOT
-[18:14:39] [Server thread/INFO]: Preparing level "world"
-[18:14:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[18:14:40] [Server thread/INFO]: Preparing spawn area: 100%
-[18:14:40] [Server thread/INFO]: Prepared spawn area in 3 ms
-[18:14:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[18:14:40] [Server thread/INFO]: Prepared spawn area in 1 ms
-[18:14:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[18:14:40] [Server thread/INFO]: Prepared spawn area in 1 ms
-[18:14:40] [Server thread/INFO]: Done preparing level "world" (0.736s)
-[18:14:40] [Server thread/INFO]: [show-plugin] Enabling show-plugin v1.0-SNAPSHOT
-[18:14:40] [Server thread/INFO]: [show-plugin] [STDOUT] 
+[19:44:21] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:44:21] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[19:44:21] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[19:44:21] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[19:44:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:44:22] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 889.8ms
+[19:44:25] [ServerMain/INFO]: Loaded 1585 recipes
+[19:44:25] [ServerMain/INFO]: Loaded 1688 advancements
+[19:44:25] [Server thread/INFO]: Starting minecraft server version 26.2
+[19:44:25] [Server thread/INFO]: Loading properties
+[19:44:25] [Server thread/INFO]: This server is running Paper version 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) (Implementing API version 26.2.build.134-stable)
+[19:44:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:44:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:44:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:44:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[19:44:27] [Server thread/INFO]: Default game type: SURVIVAL
+[19:44:27] [Server thread/INFO]: Generating keypair
+[19:44:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:44:27] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:44:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:44:27] [Server thread/INFO]: [show-plugin] Loading server plugin show-plugin v1.0-SNAPSHOT
+[19:44:27] [Server thread/INFO]: Preparing level "world"
+[19:44:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[19:44:28] [Server thread/INFO]: Preparing spawn area: 100%
+[19:44:28] [Server thread/INFO]: Prepared spawn area in 2 ms
+[19:44:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[19:44:28] [Server thread/INFO]: Prepared spawn area in 1 ms
+[19:44:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[19:44:28] [Server thread/INFO]: Prepared spawn area in 1 ms
+[19:44:28] [Server thread/INFO]: Done preparing level "world" (0.781s)
+[19:44:28] [Server thread/INFO]: [show-plugin] Enabling show-plugin v1.0-SNAPSHOT
+[19:44:28] [Server thread/INFO]: [show-plugin] [STDOUT] 
  ----------------------------------------- 
  ShowPlugin has been Enabled Successfully.
  -----------------------------------------
-[18:14:40] [Server thread/WARN]: Nag author(s): '[StoryTeller]' of 'show-plugin v1.0-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[18:14:40] [Server thread/INFO]: [show-plugin] Loaded 1 custom items.
-[18:14:40] [Server thread/INFO]: [show-plugin] [STDOUT] 
- Command : 'showItems' does not exist in plugin.yml.
-[18:14:40] [Server thread/INFO]: [spark] Starting background profiler...
-[18:14:40] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[18:14:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:14:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:14:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:14:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:14:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:14:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:14:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:14:40] [Server thread/INFO]: Running delayed init tasks
-[18:14:40] [Server thread/INFO]: Done (14.573s)! For help, type "help"
-[18:14:42] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[18:14:42] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.2)
-[18:14:42] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 releases behind the latest stable release (26.3)!
-[18:14:42] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[18:14:42] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[18:14:42] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[19:44:28] [Server thread/WARN]: Nag author(s): '[StoryTeller]' of 'show-plugin v1.0-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:44:28] [Server thread/INFO]: [show-plugin] Loaded 1 custom items.
+[19:44:28] [Server thread/INFO]: [spark] Starting background profiler...
+[19:44:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:44:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:44:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:44:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:44:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:44:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:44:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:44:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:44:28] [Server thread/INFO]: Running delayed init tasks
+[19:44:28] [Server thread/INFO]: Done (16.624s)! For help, type "help"
+[19:44:31] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[19:44:31] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.2)
+[19:44:31] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 releases behind the latest stable release (26.3)!
+[19:44:31] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[19:44:31] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[19:44:31] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[19:44:54] [User Authenticator #0/INFO]: UUID of player OverRide100 is 2ef77a64-b45f-4160-9dd7-01718d2c1530
+[19:44:57] [Server thread/INFO]: OverRide100 joined the game
+[19:44:57] [Server thread/INFO]: OverRide100[/127.0.0.1:64901] logged in with entity id 51 at ([minecraft:overworld]18.1615759692599, 126.0, -6.123571627718598)
+[19:45:13] [Server thread/INFO]: OverRide100 issued server command: /showitem POISON_DAGGER
+[19:46:34] [Server thread/INFO]: OverRide100 lost connection: Disconnected
+[19:46:34] [Server thread/INFO]: OverRide100 left the game

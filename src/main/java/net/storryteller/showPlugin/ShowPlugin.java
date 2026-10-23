@@ -1,5 +1,7 @@
 package net.storryteller.showPlugin;
 
+import net.storryteller.showPlugin.api.block.CustomBlockListener;
+import net.storryteller.showPlugin.api.block.CustomBlockManager;
 import net.storryteller.showPlugin.api.item.CustomItem;
 import net.storryteller.showPlugin.api.item.lore.LoreUpdateListener;
 import net.storryteller.showPlugin.internal.commands.ShowItemCommand;
@@ -15,6 +17,8 @@ public final class ShowPlugin extends JavaPlugin {
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
 
+    private CustomBlockManager customBlockManager;
+
     @Override
     public void onEnable() {
         System.out.println(ANSI_RESET + ANSI_GREEN +
@@ -23,7 +27,6 @@ public final class ShowPlugin extends JavaPlugin {
                 "ShowPlugin has been Enabled Successfully.\n " +
                 "-----------------------------------------" + ANSI_RESET);
 
-        getServer().getPluginManager().registerEvents(new LoreUpdateListener(), this);
         CustomItem.initalize(this);
         registerCommands();
     }
@@ -37,8 +40,14 @@ public final class ShowPlugin extends JavaPlugin {
                 "------------------------------------------" + ANSI_RESET);
     }
 
+    private void registerListeners() {
+        customBlockManager = new CustomBlockManager(this);
+        getServer().getPluginManager().registerEvents(new CustomBlockListener(customBlockManager), this);
+        getServer().getPluginManager().registerEvents(new LoreUpdateListener(), this);
+    }
+
     private void registerCommands() {
-        registerCommand(new ShowItemCommand(), new ShowItemCommand(), "showItems");
+        registerCommand(new ShowItemCommand(), new ShowItemCommand(), "showItem");
     }
 
     private void registerCommand(CommandExecutor commandExecutor, TabCompleter tabCompleter, String commandId) {
