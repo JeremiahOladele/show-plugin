@@ -28,6 +28,7 @@ public final class ShowPlugin extends JavaPlugin {
                 "-----------------------------------------" + ANSI_RESET);
 
         CustomItem.initalize(this);
+        registerListeners();
         registerCommands();
     }
 

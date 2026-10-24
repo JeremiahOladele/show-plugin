@@ -1,6 +1,10 @@
 package net.storryteller.showPlugin.api.enums;
 
 public enum CustomBlockEnum {
+   DUNGEON_SPAWNER(
+           0001,
+           CustomItemEnum.DUNGEON_SPAWNER,
+           CustomItemEnum.DUNGEON_SPAWNER)
     ;
 
     private final int id;

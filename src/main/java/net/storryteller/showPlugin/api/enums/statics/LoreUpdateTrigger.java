@@ -1,4 +1,4 @@
-package net.storryteller.showPlugin.api.enums;
+package net.storryteller.showPlugin.api.enums.statics;
 
 public enum LoreUpdateTrigger {
     JUMP,

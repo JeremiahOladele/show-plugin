@@ -23,7 +23,21 @@ public enum CustomLoreEnum {
                             true
                     )
             )
-    );
+    ),
+    DUNGEON_BLOCK_LORE(
+            0002,
+            List.of(
+                    new LoreLine(
+                            "Block",
+                            "#FF4500",
+                            null,
+                            false,
+                            false
+
+                    )
+            )
+    )
+    ;
 
     private final int id;
     private final List<LoreLine> lines;

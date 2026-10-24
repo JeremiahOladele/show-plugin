@@ -1,5 +1,6 @@
 package net.storryteller.showPlugin.api.enums;
 
+import net.storryteller.showPlugin.api.enums.statics.LoreUpdateTrigger;
 import org.bukkit.Material;
 
 import java.util.Collections;
@@ -12,7 +13,16 @@ public enum CustomItemEnum {
             Material.DIAMOND_SWORD,
             0001,
             0001,
-            Collections.singleton(LoreUpdateTrigger.RIGHT_CLICK));
+            Collections.singleton(LoreUpdateTrigger.RIGHT_CLICK)),
+
+    DUNGEON_SPAWNER(
+            0002,
+            "Dungeon Spawner",
+            Material.ENCHANTING_TABLE,
+            0002,
+            0002,
+            Collections.singleton(LoreUpdateTrigger.RIGHT_CLICK))
+    ;
 
     private final int id;
     private final String name;

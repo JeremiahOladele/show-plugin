@@ -3,7 +3,7 @@ package net.storryteller.showPlugin.api.item.lore;
 import com.destroystokyo.paper.event.player.PlayerJumpEvent;
 
 import net.storryteller.showPlugin.api.enums.CustomItemEnum;
-import net.storryteller.showPlugin.api.enums.LoreUpdateTrigger;
+import net.storryteller.showPlugin.api.enums.statics.LoreUpdateTrigger;
 import net.storryteller.showPlugin.api.item.CustomItem;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
