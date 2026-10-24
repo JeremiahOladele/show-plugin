@@ -10,4 +10,6 @@ authors: [ StoryTeller ]
 commands:
   showItem:
     usage: /show <item> [amount]
+  buildStructure:
+    usage: /buildStructure <name>
 
