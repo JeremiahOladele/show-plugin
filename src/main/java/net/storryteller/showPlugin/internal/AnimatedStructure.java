@@ -207,8 +207,9 @@ public final class AnimatedStructure {
         }
 
         private Transformation transformation(float scale) {
+            float offset = (1.0f - scale) / 2.0f;
             return new Transformation(
-                    new Vector3f(0, 0, 0),
+                    new Vector3f(offset, offset, offset),
                     new AxisAngle4f(),
                     new Vector3f(scale, scale, scale),
                     new AxisAngle4f()

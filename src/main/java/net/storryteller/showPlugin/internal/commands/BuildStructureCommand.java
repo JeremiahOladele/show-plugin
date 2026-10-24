@@ -13,6 +13,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 
 public class BuildStructureCommand implements CommandExecutor, TabCompleter {
@@ -24,7 +26,6 @@ public class BuildStructureCommand implements CommandExecutor, TabCompleter {
         }
 
         File structureFile = findStructure(args[0]);
-
         try {
             AnimatedStructure.BuildSession session = ShowPlugin.structureBuilder.buildAnimatedStructure(structureFile, player.getLocation());
         } catch (IOException e) {
@@ -35,7 +36,17 @@ public class BuildStructureCommand implements CommandExecutor, TabCompleter {
 
     @Override
     public @Nullable List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String @NotNull [] args) {
-        return List.of();
+        Path structuresDir = ShowPlugin.getPluginInstance().getDataFolder().toPath().resolve("structures");
+        if (!Files.exists(structuresDir)) {return List.of();}
+
+        try (var stream = Files.list(structuresDir)) {
+            return stream
+                    .filter(Files::isRegularFile)
+                    .map(path -> path.getFileName().toString())
+                    .toList();
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to scan structures directory", e);
+        }
     }
 
     private File findStructure(@NotNull String arg) {
