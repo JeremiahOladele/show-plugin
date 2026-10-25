@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "638dae1b-d104-3e20-b98b-02d220194c52",
+    "name": "OverRide100",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "2ef77a64-b45f-4160-9dd7-01718d2c1530",
     "name": "OverRide100",
     "level": 4,

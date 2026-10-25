@@ -27,7 +27,7 @@ public class BuildStructureCommand implements CommandExecutor, TabCompleter {
 
         File structureFile = findStructure(args[0]);
         try {
-            AnimatedStructure.BuildSession session = ShowPlugin.structureBuilder.buildAnimatedStructure(structureFile, player.getLocation());
+            AnimatedStructure.BuildSession session = ShowPlugin.structureBuilder.buildAnimatedStructure(structureFile, player.getLocation().add(0.0f, -7.0f, 0.0f));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

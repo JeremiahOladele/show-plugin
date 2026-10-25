@@ -1,108 +1,112 @@
-[16:10:34] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4+7-LTS; Eclipse Adoptium Temurin-25.0.4+7) on Windows 11 10.0 (amd64)
-[16:10:34] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) for Minecraft 26.2
-[16:10:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:10:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[16:10:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[06:04:48] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4+7-LTS; Eclipse Adoptium Temurin-25.0.4+7) on Windows 11 10.0 (amd64)
+[06:04:48] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) for Minecraft 26.2
+[06:04:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:04:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[06:04:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - show-plugin (1.0-SNAPSHOT)
-[16:10:41] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[16:10:42] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
-[16:10:42] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
-[16:10:42] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[16:10:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:10:43] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,114.9ms
-[16:10:47] [ServerMain/INFO]: Loaded 1585 recipes
-[16:10:47] [ServerMain/INFO]: Loaded 1688 advancements
-[16:10:47] [Server thread/INFO]: Starting minecraft server version 26.2
-[16:10:47] [Server thread/INFO]: Loading properties
-[16:10:47] [Server thread/INFO]: This server is running Paper version 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) (Implementing API version 26.2.build.134-stable)
-[16:10:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:10:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:10:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:10:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[16:10:48] [Server thread/INFO]: Default game type: SURVIVAL
-[16:10:48] [Server thread/INFO]: Generating keypair
-[16:10:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:10:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:10:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:10:48] [Server thread/INFO]: [show-plugin] Loading server plugin show-plugin v1.0-SNAPSHOT
-[16:10:48] [Server thread/INFO]: Preparing level "world"
-[16:10:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[16:10:49] [Server thread/INFO]: Preparing spawn area: 100%
-[16:10:49] [Server thread/INFO]: Prepared spawn area in 2 ms
-[16:10:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[16:10:49] [Server thread/INFO]: Prepared spawn area in 1 ms
-[16:10:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[16:10:49] [Server thread/INFO]: Prepared spawn area in 1 ms
-[16:10:49] [Server thread/INFO]: Done preparing level "world" (0.925s)
-[16:10:49] [Server thread/INFO]: [show-plugin] Enabling show-plugin v1.0-SNAPSHOT
-[16:10:49] [Server thread/WARN]: [show-plugin] Could not save config.yml to plugins\show-plugin\config.yml because config.yml already exists.
-[16:10:49] [Server thread/INFO]: [show-plugin] [STDOUT] 
+[06:04:56] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:04:56] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[06:04:56] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[06:04:56] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[06:04:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:04:57] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 913.4ms
+[06:05:01] [ServerMain/INFO]: Loaded 1585 recipes
+[06:05:01] [ServerMain/INFO]: Loaded 1688 advancements
+[06:05:01] [Server thread/INFO]: Starting minecraft server version 26.2
+[06:05:01] [Server thread/INFO]: Loading properties
+[06:05:01] [Server thread/INFO]: This server is running Paper version 26.2-134-ver/26.2@3e24be0 (2026-10-14T18:33:55Z) (Implementing API version 26.2.build.134-stable)
+[06:05:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:05:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:05:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:05:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[06:05:02] [Server thread/INFO]: Default game type: SURVIVAL
+[06:05:02] [Server thread/INFO]: Generating keypair
+[06:05:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:05:02] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[06:05:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[06:05:02] [Server thread/INFO]: [show-plugin] Loading server plugin show-plugin v1.0-SNAPSHOT
+[06:05:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:05:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:05:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:05:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:05:02] [Server thread/INFO]: Preparing level "world"
+[06:05:03] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[06:05:03] [Server thread/INFO]: Preparing spawn area: 100%
+[06:05:03] [Server thread/INFO]: Prepared spawn area in 4 ms
+[06:05:03] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[06:05:03] [Server thread/INFO]: Prepared spawn area in 2 ms
+[06:05:03] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[06:05:03] [Server thread/INFO]: Preparing spawn area: 100%
+[06:05:03] [Server thread/INFO]: Prepared spawn area in 2 ms
+[06:05:03] [Server thread/INFO]: Done preparing level "world" (0.816s)
+[06:05:03] [Server thread/INFO]: [show-plugin] Enabling show-plugin v1.0-SNAPSHOT
+[06:05:03] [Server thread/WARN]: [show-plugin] Could not save config.yml to plugins\show-plugin\config.yml because config.yml already exists.
+[06:05:03] [Server thread/INFO]: [show-plugin] [STDOUT] 
  ----------------------------------------- 
  ShowPlugin has been Enabled Successfully.
  -----------------------------------------
-[16:10:49] [Server thread/WARN]: Nag author(s): '[StoryTeller]' of 'show-plugin v1.0-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[16:10:50] [Server thread/INFO]: [show-plugin] Loaded 2 custom items.
-[16:10:50] [Server thread/INFO]: [spark] Starting background profiler...
-[16:10:50] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[16:10:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:10:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:10:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:10:54] [Server thread/INFO]: Running delayed init tasks
-[16:10:54] [Server thread/INFO]: Done (21.757s)! For help, type "help"
-[16:10:57] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[16:10:57] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.2)
-[16:10:57] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 releases behind the latest stable release (26.3)!
-[16:10:57] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[16:10:57] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[16:10:57] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[16:11:18] [Server thread/INFO]: OverRide100 (/127.0.0.1:64355) lost connection: Disconnected
-[16:11:30] [User Authenticator #0/INFO]: UUID of player OverRide100 is 2ef77a64-b45f-4160-9dd7-01718d2c1530
-[16:11:34] [Server thread/INFO]: OverRide100 joined the game
-[16:11:34] [Server thread/INFO]: OverRide100[/127.0.0.1:64379] logged in with entity id 39 at ([minecraft:overworld]-12.274624167624177, 146.5676917553104, -48.19275075423502)
-[16:11:38] [Netty NIO IO #2/WARN]: Failed to update secure chat state for OverRide100: 'Chat disabled due to missing profile public key. Please try reconnecting.'
-[16:11:38] [Netty NIO IO #2/WARN]: Failed to update secure chat state for OverRide100: 'Chat disabled due to missing profile public key. Please try reconnecting.'
-[16:11:45] [Server thread/INFO]: OverRide100 issued server command: /buildstructure test.nbt
-[16:11:57] [Server thread/INFO]: OverRide100 lost connection: Disconnected
-[16:11:57] [Server thread/INFO]: OverRide100 left the game
-[16:12:01] [Server thread/INFO]: Stopping the server
-[16:12:01] [Server thread/INFO]: Stopping server
-[16:12:01] [Server thread/INFO]: [show-plugin] Disabling show-plugin v1.0-SNAPSHOT
-[16:12:01] [Server thread/INFO]: [show-plugin] [STDOUT] 
+[06:05:03] [Server thread/WARN]: Nag author(s): '[StoryTeller]' of 'show-plugin v1.0-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[06:05:03] [Server thread/INFO]: [show-plugin] Loaded 2 custom items.
+[06:05:04] [Server thread/INFO]: [spark] Starting background profiler...
+[06:05:04] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[06:05:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:05:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:05:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:05:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:05:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:05:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:05:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:05:04] [Server thread/INFO]: Running delayed init tasks
+[06:05:04] [Server thread/INFO]: Done (17.065s)! For help, type "help"
+[06:05:04] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[06:05:04] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.2)
+[06:05:04] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 releases behind the latest stable release (26.3)!
+[06:05:04] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[06:05:04] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[06:05:04] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[06:05:21] [User Authenticator #0/INFO]: UUID of player OverRide100 is 638dae1b-d104-3e20-b98b-02d220194c52
+[06:05:25] [Server thread/INFO]: OverRide100 joined the game
+[06:05:25] [Server thread/INFO]: OverRide100[/127.0.0.1:51197] logged in with entity id 47 at ([minecraft:overworld]26.78802782173318, 188.69307735367346, -60.87046948358525)
+[06:05:33] [Async Chat Thread - #0/INFO]: [Not Secure] <OverRide100> e
+[06:05:35] [Async Chat Thread - #0/INFO]: [Not Secure] <OverRide100> y
+[06:05:38] [Server thread/INFO]: OverRide100 issued server command: /buildstructure test.nbt
+[06:08:57] [Server thread/INFO]: OverRide100 lost connection: Disconnected
+[06:08:57] [Server thread/INFO]: OverRide100 left the game
+[06:09:01] [Server thread/INFO]: Stopping the server
+[06:09:01] [Server thread/INFO]: Stopping server
+[06:09:01] [Server thread/INFO]: [show-plugin] Disabling show-plugin v1.0-SNAPSHOT
+[06:09:01] [Server thread/INFO]: [show-plugin] [STDOUT] 
  ------------------------------------------ 
  ShowPlugin has been Disabled Successfully.
  ------------------------------------------
-[16:12:01] [Server thread/INFO]: Saving players
-[16:12:01] [Server thread/INFO]: Saving worlds
-[16:12:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1040 block chunks, 675 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 2.63s
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[16:12:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[16:12:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[16:12:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[16:12:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:12:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:12:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:12:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:12:04] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[16:12:04] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[16:12:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[16:12:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[06:09:01] [Server thread/INFO]: Saving players
+[06:09:01] [Server thread/INFO]: Saving worlds
+[06:09:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:09:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[06:09:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[06:09:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1051 block chunks, 725 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 2.83s
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[06:09:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[06:09:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[06:09:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[06:09:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:09:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:09:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:09:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:09:04] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[06:09:04] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[06:09:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:09:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

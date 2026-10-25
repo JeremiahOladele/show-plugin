@@ -12,8 +12,6 @@ import org.bukkit.command.PluginCommand;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.nio.file.Path;
-
 public final class ShowPlugin extends JavaPlugin {
 
     public static final String ANSI_GREEN = "\u001B[32m";

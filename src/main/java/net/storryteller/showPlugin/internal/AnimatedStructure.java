@@ -28,7 +28,7 @@ import static net.storryteller.showPlugin.ShowPlugin.ANSI_YELLOW;
 
 public final class AnimatedStructure {
 
-    private static final int ANIMATION_TICKS = 10;
+    private static final int ANIMATION_TICKS = 16;
     private static final int BLOCK_INTERVAL_TICKS = 4;
     private final Plugin plugin;
 
